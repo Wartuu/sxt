@@ -9,6 +9,8 @@ about.addEventListener("click", loadAbout)
 school.addEventListener("click", loadScrapper)
 librus.addEventListener("click", loadLibrus)
 
+loadScrapper(null);
+
 function removeLinksFromTable(table) {
     var links = table.getElementsByTagName("a");
   

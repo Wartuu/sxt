@@ -1,0 +1,59 @@
+
+
+:root {
+    --width: 500px;
+    --height: 500px;
+}
+
+
+
+body {
+    overflow: hidden;
+    background-color: #303030;
+}
+
+
+#app {
+    width: var(--width);
+    height: var(--height);
+    overflow:visible;
+}
+
+#toolbar {
+    width: var(--width);
+    height: 50px;
+    background-color: #404040;
+
+}
+
+#info {
+    width: var(--width);
+    height: 430px;
+    
+    border: 1px solid cyan;
+    overflow: auto;
+
+    color: snow;
+
+}
+
+
+
+.menu-button {
+    height: 50px;
+    width: calc((var(--width) / 3) * 0.98);
+
+    border-radius: 0;
+    border: none;
+
+    background-color: #707070;
+
+    font-size: 25px;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+
+    font-size: 10px;
+}
